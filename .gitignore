@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.dll
+
+# Virtuella miljöer
+venv/
+.env/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Loggar och debug-filer
+*.log
+debug.log
+
+# OS-specifika filer
+.DS_Store
+Thumbs.db
+
+# IDE-specifika filer
+.vscode/
+.idea/
+*.iml
+
+# Streamlit tillfälliga filer
+.streamlit/
+config.toml
+credentials.toml
+
+# CSV och datadump-filer
+*.csv
+*.json
+*.xlsx
+data/
+
+# Modellfiler
+*.pkl
+*.joblib
+models/
+
+# Pytest cache
+.pytest_cache/
